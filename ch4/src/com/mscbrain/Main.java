@@ -1,6 +1,6 @@
 package com.mscbrain;
 
-import com.mscbrain.practice.ex08;
+import com.mscbrain.practice.ex09;
 
 public class Main {
 
@@ -13,6 +13,7 @@ public class Main {
     // ex05.ex5();
     // ex06.ex6();
     // ex07.ex7();
-    ex08.ex8();
+    // ex08.ex8();
+    ex09.ex9();
   }
 }
