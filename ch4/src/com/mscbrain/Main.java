@@ -1,6 +1,6 @@
 package com.mscbrain;
 
-import static com.mscbrain.practice.ex12.ex12;
+import static com.mscbrain.practice.ex13.ex13;
 
 public class Main {
 
@@ -16,6 +16,7 @@ public class Main {
     // ex8();
     // ex9();
     // ex10();
-    ex12();
+    //ex12();
+    ex13();
   }
 }
