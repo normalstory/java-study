@@ -6,9 +6,16 @@ public class Main {
     // write your code here
     SutdaDeck deck = new SutdaDeck();
 
+    System.out.println(deck.pick(0));
+    System.out.println(deck.pick());
+    deck.shuffle();
+
     for (int i = 0; i < deck.cards.length; i++) {
       System.out.print(deck.cards[i] + ",");
     }
+
+    System.out.println();
+    System.out.println(deck.pick(0));
   }
 }
 
@@ -46,4 +53,22 @@ class SutdaDeck {
       cards[i] = new SutdaCard(i % 10 + 1, isKwang);
     }
   }
+
+  void shuffle() {
+    for (int i = 0; i < cards.length; i++) {
+      SutdaCard temp = cards[i];
+      int j = (int) (Math.random() * cards.length);
+      cards[i] = cards[j];
+      cards[j] = temp;
+    }
+  }
+
+  SutdaCard pick(int index) {
+    return cards[index];
+  }
+
+  SutdaCard pick() {
+    return cards[(int) (Math.random() * cards.length)];
+  }
+
 }
