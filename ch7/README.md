@@ -16,7 +16,7 @@ c, d
 
 7-7
 
-Child() - Parent() - Parent(int x) - Child(int x)
+Child() - Child(int x) - Parent() - Parent(int x) 
 
 7-8
 
@@ -24,7 +24,7 @@ a
 
 7-9
 
-?
+c. 메서드 - 오버라이딩을 할 수 없다.
 
 7-12
 
@@ -33,5 +33,15 @@ c
 7-13
 
 상수와 static 메서드만으로 이루어져 있어서
+
+7-15
+
+e
+
+7-16
+
+e
+
+
 
 
